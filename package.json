@@ -1,4 +1,7 @@
 {
+  "name": "laundry-optimizer",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
     "@types/node": "^24.1.0",
     "@types/react": "^19.1.9",
