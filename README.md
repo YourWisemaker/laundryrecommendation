@@ -32,7 +32,7 @@ An intelligent laundry drying recommendation system that uses weather data, mach
 - **Multi-factor Analysis**: Temperature, humidity, wind speed, cloud cover, rain probability, and VPD (Vapor Pressure Deficit)
 - **Safety Vetoes**: Automatically excludes unsafe drying conditions
 - **Soft Penalties**: Adjusts scores for suboptimal conditions
-- **User Feedback Integration**: Learns from 👍/👎 feedback to improve recommendations
+- **User Feedback Integration**: Learns from 👍/👎 feedback to improve recommendations *(backend implementation complete, frontend integration in progress)*
 
 ### Modern Tech Stack
 - **Frontend**: Next.js 15 with React 19, TypeScript, and Tailwind CSS
@@ -125,7 +125,7 @@ SERVER_HOST=0.0.0.0
   - Drying score and time range
   - AI-generated explanation
   - Helpful tips
-  - Feedback buttons (👍/👎)
+  - Feedback buttons (👍/👎) *(backend ready, frontend integration pending)*
 
 ### Timeline View
 - Interactive 7-day heatmap of drying conditions
