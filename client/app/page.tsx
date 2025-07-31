@@ -753,7 +753,7 @@ export default function LaundryOptimizer() {
       <div className="p-6">
         {/* Add title */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-white mb-2">Laundry Recommendation</h1>
+          <h1 className="text-4xl font-bold text-white mb-2">Laundry Optimizer</h1>
           <p className="text-gray-400">AI-powered weather-based laundry drying optimization</p>
         </div>
 
@@ -800,7 +800,7 @@ export default function LaundryOptimizer() {
                 <div className="bg-slate-700 rounded-lg p-4 mb-6">
                   <div className="flex items-center space-x-2 mb-3">
                     <CheckCircle className="w-5 h-5 text-green-400" />
-                    <h3 className="text-lg font-semibold text-white">AI Laundry Recommendation</h3>
+                    <h3 className="text-lg font-semibold text-white">AI Laundry Optimizer</h3>
                   </div>
                   {aiRecommendation ? (
                     <p className="text-green-400 font-medium mb-2">{aiRecommendation}</p>
